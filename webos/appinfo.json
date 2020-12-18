@@ -1,0 +1,9 @@
+{
+  "id": "org.chocolate-doom.launcher",
+  "version": "0.0.1",
+  "vendor": "webOS Brew Project",
+  "type": "native",
+  "main": "chocolate-doom",
+  "title": "Chocolate Doom",
+  "icon": "icon.png"
+}
