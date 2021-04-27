@@ -4,6 +4,7 @@
   "vendor": "webOS Brew Project",
   "type": "native",
   "main": "chocolate-doom",
-  "title": "Chocolate Doom",
-  "icon": "icon.png"
+  "title": "Chocolate Doom Demo",
+  "icon": "icon.png",
+  "appDescription": "Technical Demo for Chocolate Doom"
 }

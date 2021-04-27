@@ -1,0 +1,14 @@
+{
+    "id": "org.chocolate-doom.demo",
+    "version": "0.0.1",
+    "type": "native",
+    "title": "Chocolate Doom Demo",
+    "appDescription": "Technical Demo for Chocolate Doom",
+    "iconUri": "https://github.com/webosbrew/chocolate-doom/blob/webos-tv/data/doom.png",
+    "sourceUrl": "https://github.com/webosbrew/chocolate-doom",
+    "rootRequired": false,
+    "ipkUrl": "org.chocolate-doom.demo_0.0.1_arm.ipk",
+    "ipkHash": {
+        "sha256": ""
+    }
+}
