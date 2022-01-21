@@ -1246,9 +1246,12 @@ static void SetVideoMode(void)
 
     // Force integer scales for resolution-independent rendering.
 
-#if SDL_VERSION_ATLEAST(2, 0, 5)
-    SDL_RenderSetIntegerScale(renderer, integer_scaling);
-#endif
+    SDL_version ver;
+    SDL_GetVersion(&ver);
+    if (SDL_VERSIONNUM(ver.major, ver.minor, ver.patch) >= 2005)
+    {
+        SDL_RenderSetIntegerScale(renderer, integer_scaling);
+    }
 
     // Blank out the full screen area in case there is any junk in
     // the borders that won't otherwise be overwritten.
