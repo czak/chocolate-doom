@@ -115,7 +115,7 @@ int window_height = SCREENHEIGHT_4_3 * 2;
 
 // Fullscreen mode, 0x0 for SDL_WINDOW_FULLSCREEN_DESKTOP.
 
-int fullscreen_width = 0, fullscreen_height = 0;
+int fullscreen_width = 1920, fullscreen_height = 1080;
 
 // Maximum number of pixels to use for intermediate scale buffer.
 
